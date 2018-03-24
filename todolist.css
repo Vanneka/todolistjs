@@ -1,0 +1,67 @@
+body {
+    font-family:sans-serif;
+    padding:0px;
+    Margin:0;
+}
+
+#title {
+    text-align:center;
+    border-bottom:2px dotted black;
+}
+
+#instrusction {
+    color:grey;
+}
+
+#toDoList ul li:nth-child(even){
+    background-color:rgba(0,0,0,0.2);
+    Width:200px;
+    Border-bottom:1px solid black;
+}
+
+#addItem {
+    text-align:center;
+}
+
+#btn{
+    Width:150px;
+    height:30px;
+    background-color:grey;
+    color:white;
+    text-align:center;
+    margin-top:50px;
+    margin-left:175px;
+    line-height:25px;
+}
+
+#btn:hover {
+    cursor:pointer;
+    background-color: black;
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all ease-in 0.5s;
+}
+
+/*To indicate done or undone in the CSS*/
+.doneUndone {
+    color:grey;
+    text-decoration: line-through;
+}
+
+/*Instructions styling*/
+
+.instructions {
+    background:rgb(201, 201, 201);
+    padding:10px;
+
+}
+
+.instructions p {
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.instructions ol {
+    font-size:14px;
+}
